@@ -4,16 +4,15 @@
 
 Some poems. All hashed.
 
-## Why hashed?
+## Post-processing
 
+Refer to the python script ```compute_hash.py```
 
+## Update log
 
-## How the hashes are computed
+In timezone UTC+0,
 
-With the python script ```compute_hash.py```
-
-## Update log (in UTC+0)
-
+* 2021/03/14 - poem 3
 * 2021/02/14 - poem 2
 * 2021/02/14 - improved poem 1
 * 2021/02/13 - poem 1
