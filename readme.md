@@ -4,7 +4,7 @@
 
 Some poems. All hashed.
 
-## Post-processing
+## How are they hashed
 
 Refer to the python script ```compute_hash.py```
 
