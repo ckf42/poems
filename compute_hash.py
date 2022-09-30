@@ -4,7 +4,7 @@ import hashlib
 def hash_and_write(fpath):
     wfpath = fpath + '.md5'
     if os.path.isfile(wfpath):
-        print(f"{wfpath} already exists")
+        # print(f"{wfpath} already exists")
         return
     hasher = hashlib.md5()
     with open(fpath, "rb") as f:
