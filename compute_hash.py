@@ -16,8 +16,7 @@ def hash_and_write(fpath):
         f.write(f"{hash_result}\t{os.path.getsize(fpath)} bytes")
 
 currentDir = os.getcwd()
-allPoems = [fname for fname in os.listdir(currentDir) if fname.endswith('.txt')]
-for fname in allPoems:
+for fname in filter(lambda fname: fname.endswith('.txt'), os.listdir(currentDir)):
     fpath = os.path.join(currentDir, fname)
     print(f"{fname}")
     hash_and_write(fpath)
